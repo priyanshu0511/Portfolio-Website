@@ -1,31 +1,33 @@
 import React from 'react'
 import Weather from '../Assets/ProjectsPics/Weather.png'
 import Dictionary from '../Assets/ProjectsPics/Dictionary.png'
-import BGenerator from '../Assets/ProjectsPics/BGenerator.png'
+import ImageSearch from '../Assets/ProjectsPics/ImageSearch.png'
 
 function Projects() {
 
-    const projects=[{
+    const projects=[
+    {
         id: 1,
+        src: ImageSearch,
+        nam: "Image-Search-App",
+        github: "https://github.com/priyanshu0511/image-search-app",
+        live: "https://imagesearchbypriyanshu.netlify.app//"
+    },
+    {
+        id: 2,
         src: Weather,
         nam: "Weather-app",
         github: "https://github.com/priyanshu0511/Weather-App",
         live: "https://weatherappbypriyanshu.netlify.app/"
     },
     {
-        id: 2,
+        id: 3,
         src: Dictionary,
         nam: "Dictionary-app",
         github: "https://github.com/priyanshu0511/Dictionary-App",
         live: "https://dictionarybypriyanshu.netlify.app/"
-    },
-    {
-        id: 3,
-        src: BGenerator,
-        nam: "BG Gradient Generator",
-        github: "https://github.com/priyanshu0511/Background-Generator",
-        live: "https://backgroundgeneratorbypriyanshu.netlify.app/"
-    }]
+    }
+    ]
 
   return (
     <div name='projects' className=' bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen text-white pt-20 sm:pt-0'>
